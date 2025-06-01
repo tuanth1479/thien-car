@@ -1,0 +1,13 @@
+<svg width="340" height="94" viewBox="0 0 340 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="53" cy="47" r="29" fill="#002C5F"></circle>
+    <path d="M53 32 v30" stroke="#fff" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M41 46 Q53 40 65 46" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"></path>
+  </g>
+  <text x="100" y="54" fill="#002C5F" font-size="26" font-family="Arial, sans-serif" font-weight="bold" letter-spacing="1.2">
+    THIỆN <tspan fill="#5bc0eb">HYUNDAI</tspan>
+  </text>
+  <text x="100" y="74" fill="#333" font-size="14" font-family="Arial, sans-serif" font-weight="bold">
+    Tư vấn - Lái thử - Ưu đãi chính hãng
+  </text>
+</svg>
