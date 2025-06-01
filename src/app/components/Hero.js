@@ -33,7 +33,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.6 }}
               className="h1"
             >
-              Bán xe <span className="text-[#002c5f] font-semibold">Hyundai</span> chính hãng – Giá tốt{" "}
+              <span className="text-[#002c5f] font-semibold">Hyundai Gia Định</span> chính hãng – Giá tốt{" "}
               {" "}
             </motion.h1>
             <motion.p
