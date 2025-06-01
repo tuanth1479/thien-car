@@ -144,7 +144,7 @@ export default function Header() {
           > 
             Liên hệ
           </Link>
-          <Link
+          {/* <Link
             to="/"
             className="xl:hidden btn btn-primary btn-sm max-w-[164px] mx-auto"
             activeClass="active"
@@ -152,7 +152,7 @@ export default function Header() {
             spy={true}
           >
             See all cars
-          </Link>
+          </Link> */}
           <SearchMobile />
         </nav>
       </div>

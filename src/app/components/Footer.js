@@ -104,14 +104,14 @@ export default function Footer() {
             <h3 className="h3 font-bold mb-8">Để lại thông tin tư vấn</h3>
             <div className="mb-9 text-secondary">Chúng tôi sẽ liên hệ ngay trong vòng 24h.</div>
             {/* form */}
-            <form className="flex gap-x-2 h-14" target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSerIT8NOUausuXGMj638xgdvdRHdOuSUi52UJuTnJBEbWSw5w/formResponse" method="POST">
+            <form className="flex flex-col gap-y-3" target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSerIT8NOUausuXGMj638xgdvdRHdOuSUi52UJuTnJBEbWSw5w/formResponse" method="POST">
               <input
                 type="text"
                 name="entry.1444716707"
                 id="entry.1444716707"
                 placeholder="Tên"
                 required
-                className="outline-none bg-white h-full border rounded-lg pl-4 focus:border-accent"
+                className="outline-none w-full h-12 px-4 bg-white  border rounded-lg pl-4 focus:border-accent"
               />
               <input
                 type="text"
@@ -119,9 +119,9 @@ export default function Footer() {
                 id="entry.1961486141"
                 required
                 placeholder="Số điện thoại hoặc email"
-                className="outline-none bg-white h-full border rounded-lg pl-4 focus:border-accent"
+                className="outline-none w-full h-12 px-4 bg-white border rounded-lg pl-4 focus:border-accent"
               />
-              <button type="submit" className="btn btn-sm btn-accent w-24">
+              <button type="submit" className="btn btn-sm h-12 btn-accent w-24">
                 Gửi
               </button>
               
