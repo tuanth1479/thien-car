@@ -31,9 +31,9 @@ export default function Hero() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.6 }}
-              className="h1"
+              className="font-bold text-2xl xl:text-4xl leading-tight"
             >
-              <span className="text-[#002c5f] font-semibold">Hyundai Gia Định</span> chính hãng – Giá tốt{" "}
+              <span className="text-[#002c5f]">Hyundai Gia Định</span> chính hãng – Giá tốt{" "}
               {" "}
             </motion.h1>
             <motion.p
