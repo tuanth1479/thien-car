@@ -20,7 +20,7 @@ export default function Brands() {
         className="mx-auto"
       >
         {/* brand wrapper */}
-        <div className="grid grid-cols-3 gap-6 place-items-center xl:flex xl:flex-wrap xl:gap-x-6 xl:justify-between">
+        <div className=" flex justify-center items-center grid-cols-3 gap-6 place-items-center xl:flex xl:flex-wrap xl:gap-x-6 xl:justify-between">
           
           <div>
             <Image src={"icons/brands/hyundai-motor-company-2.svg"} width={160} height={80} alt="" />
