@@ -115,7 +115,7 @@ export default function Header() {
             smooth={desktopMode}
             spy={true}
           >
-            About
+            Về chúng tôi
           </Link>
           {/* <Link
             to="why"
