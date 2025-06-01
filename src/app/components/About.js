@@ -35,7 +35,7 @@ const About = () => {
             variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.45 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="flex-1 mb-8 xl:mb-0"
           >
             <Image
