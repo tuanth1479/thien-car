@@ -33,7 +33,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.6 }}
               className="font-bold text-2xl xl:text-4xl leading-tight"
             >
-              <span className="text-[#002c5f]">Hyundai Gia Định</span> chính hãng – Giá tốt{" "}
+              <span className="text-[#002c5f]">Hyundai Gia Định</span> <br></br>chính hãng – Giá tốt{" "}
               {" "}
             </motion.h1>
             <motion.p
@@ -41,10 +41,10 @@ export default function Hero() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.6 }}
-              className="description max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10"
+              className="description max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10 mt-4"
             >
               Tư vấn mua xe Hyundai tận tâm, thủ tục nhanh gọn, nhiều ưu đãi hấp dẫn tại đại lý. 
-              Cam kết giá tốt – hỗ trợ khách hàng chọn xe phù hợp nhất.
+              Cam kết giá tốt, có trả góp – hỗ trợ khách hàng chọn xe phù hợp nhất.
             </motion.p>
             {/* btns */}
             {/* <motion.div
